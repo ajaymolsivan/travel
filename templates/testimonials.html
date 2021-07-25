@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+	Our Services
+{% endblock %}
+{% block content %}
+      
+    <section class="banner banner-secondary" id="top" style="background-image: url({% static 'img/banner-image-3-1920x300.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-caption">
+                        <div class="line-dec"></div>
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="popular-places" id="popular"  style="padding-left:30px">
+            <div class="container" >
+                 <h3>Our List of Services </h3>
+                <p>Our Travel Consultants are all fully trained in providing the following services:</p>
+                <br>
+                  <h4>Corporate Travel Booking </h4>
+                <p>Specialized and trained corporates agent services. <br></p>
+                <p> Corporate rates, to reduce the travel expenses of the organization. </p>
+                <p>24hrs/7 service to solve any queries in real time. </p>
+                <p>Realtime reporting according to clients’ requirements. </p>
+
+
+                <br>
+
+                <h4>Hotel Booking</h4>
+                <p>Special negotiated rates</p>
+                <p>24hrs/7 assistance to any queries. </p>
+                <p>Own system to book the hotels to avoid third party charges. </p>
+
+                <br>
+
+                <h4>Car Rentals</h4>
+                <p>Worldwide car rentals.</p>
+                <p>Airport pick up and drop services world wide. </p>
+                <p>Special negotiated prices. </p>
+
+
+                <br>
+
+                <h4>Visa Assistance </h4>
+
+                <p>Visa assistance to European countries.</p>
+                <p>Visa for Dubai.</p>
+                <p>Visa for Namibia.</p>
+                <p>Visa for Congo Brazzaville. </p>
+                <p>Visa for DRC .</p>
+
+
+
+                <br>
+
+                <h4>Travel Insurance </h4>
+               <p>Travel insurance worldwide.</p>
+                <p>Covid-19 insurance packages for travel.</p>
+
+                <br>
+                <h4>MICE </h4>
+               <p>Dedicated teams for MICE queries in central team to deliver any queries. </p>
+
+
+                <br>
+                <h4>Tourism Packages </h4>
+                <p>Personalized packages worldwide.</p>
+                <p>Special rates with collaboration with global partners. </p>
+                <p>Dedicated central team to deliver the packages of customer choice.</p>
+
+            </div>
+        </section>
+
+        <section id="video-container">
+            <div class="video-overlay"></div>
+            <div class="video-content">
+                <div class="inner">
+                      <div class="section-heading">
+                          <span> KEVE TRAVELS</span>
+                          <h2>TRAVEL WITH KEVE</h2>
+                      </div>
+                      <!-- Modal button -->
+
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                                <p class="lead">We are a professional travel management company, having partners in the travel industries among different countries, with object of providing the best travel solutions to our clients.</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-places">
+            <div class="container text-center">
+                <h4>TRAVEL WITH KEVE.</h4>
+
+                <br>
+
+                <div class="blue-button">
+                    <a href="{% url 'contact' %}">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  {% endblock %}

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+	Our Core Values
+{% endblock %}
+{% block content %}
+      
+    <section class="banner banner-secondary" id="top" style="background-image: url({% static 'img/banner-image-3-1920x300.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-caption">
+                        <div class="line-dec"></div>
+                        <h2>Our Core Values</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="popular-places">
+            <div class="container">
+                <h4>Honesty</h4>
+                <p>Honesty is the integral part of our organization, we grow with the values we develop from the trust and guarantee of the information provided by our client. <br></p>
+
+                <br>
+
+                <h4>Teamwork</h4>
+                <p>We believe in the concept of growing together than individual benefits. </p>
+
+                <br>
+
+                <h4>Services Quality</h4>
+                <p>Delivering quality of service is our main moto, we deliver timely and adequate services to our clients with best possible solutions. </p>
+
+                <br>
+
+                <h4>Constructive Spirit    </h4>
+
+                <p>Constructed spirit refers to a positive attitude, optimism, increase of the value chain, creativity and good faith must be shown and lived by those who work in our company.</p>
+
+                <br>
+
+                <h4>Community and Environment</h4>
+                <p>We commit socially and culturally to the community and adapt our business strategies to the preservation of the environment. We believe in the African concept of Ubundu in empowering and helping others to achieve more.</p>
+
+                <br>
+
+
+            </div>
+        </section>
+
+        <section class="popular-places">
+            <div class="container text-center">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+
+                <br>
+
+                <div class="blue-button">
+                    <a href="{% url 'contact' %}">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ {% endblock %}

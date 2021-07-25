@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+	Our Services
+{% endblock %}
+{% block content %}
+      
+    <section class="banner banner-secondary" id="top" style="background-image: url({% static 'img/banner-image-3-1920x300.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-caption">
+                        <div class="line-dec"></div>
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="popular-places">
+            <div class="container" >
+                 <h3>Our List of Services </h3>
+                <p>Our Travel Consultants are all fully trained in providing the following services:</p>
+                <br>
+
+
+                   <h4>Corporate Travel Booking </h4>
+                  <p>Specialized and trained corporates agent services. <br></p>
+                <p> Corporate rates, to reduce the travel expenses of the organization. </p>
+                <p>24hrs/7 service to solve any queries in real time. </p>
+                <p>Realtime reporting according to clients’ requirements. </p>
+                <br>
+
+                 <h4>Hotel Booking</h4>
+                <p>Special negotiated rates</p>
+                <p>24hrs/7 assistance to any queries. </p>
+                <p>Own system to book the hotels to avoid third party charges. </p>
+                <br>
+
+                <h4>Car Rentals</h4>
+                <p>Worldwide car rentals.</p>
+                <p>Airport pick up and drop services world wide. </p>
+                <p>Special negotiated prices. </p>
+
+
+<!--                <p>Constructed spirit refers to a positive attitude, optimism, increase of the value chain, creativity and good faith must be shown and lived by those who work in our company.</p>-->
+
+                <br>
+
+                <h4>Visa Assistance </h4>
+                 <p>Visa assistance to European countries.</p>
+                <p>Visa for Dubai.</p>
+                <p>Visa for Namibia.</p>
+                <p>Visa for Congo Brazzaville. </p>
+                <p>Visa for DRC .</p>
+<!--                <p>We commit socially and culturally to the community and adapt our business strategies to the preservation of the environment. We believe in the African concept </p>-->
+
+                <br>
+
+
+                <h4>Travel Insurance </h4>
+               <p>Travel insurance worldwide.</p>
+                <p>Covid-19 insurance packages for travel.</p>
+
+                <br>
+                <h4>MICE </h4>
+               <p>Dedicated teams for MICE queries in central team to deliver any queries. </p>
+
+
+                <br>
+                <h4>Tourism Packages </h4>
+                <p>Personalized packages worldwide.</p>
+                <p>Special rates with collaboration with global partners. </p>
+                <p>Dedicated central team to deliver the packages of customer choice.</p>
+
+
+            </div>
+        </section>
+
+        <section class="popular-places">
+            <div class="container text-center">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+
+                <br>
+
+                <div class="blue-button">
+                    <a href="{% url 'contact' %}">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ {% endblock %}
